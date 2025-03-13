@@ -17,17 +17,13 @@ The simulation relies on:
 
 1. **Natural history parameters** (e.g., 潜伏期，传染期，隔离率) derived from literature
 
-2. Model inputs
-
-   :
+2. Model inputs   :
 
    - Population size (N=300,000,000)
    - Initial conditions (I0=1, E0=0, R0=0, Q0=0)
    - Intervention timing (discovery_days = [24, 29, 34, 39 days])
 
-3. Output data
-
-   :
+3. Output data  :
 
    - Daily new cases (mean ± 95% CI)
    - Cumulative cases before/after intervention (with CI)
